@@ -24,6 +24,6 @@ bntResultado.addEventListener("click", ()=>{
         resultado = null;
     }
 
-    document.querySelector(".resultado").style.display = 'block';
+    document.querySelector("#resultado").style.display = 'block';
     document.querySelector("#resultado").innerHTML = resultado;
 })
