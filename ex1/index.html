@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercício 1</title>
+</head>
+<!--
+Peça dois números ao usuário e mostre na página a soma, subtração, multiplicação e divisão entre eles.
+-->
+<body>
+    <div class="container">
+        <h1>Exercício 1</h1>
+        
+        <div class="input-group">
+            <label for="num1">Primeiro Número:</label>
+            <input type="number" id="num1" placeholder="Digite um valor">
+        </div>
+
+        <div class="input-group">
+            <label for="num2">Segundo Número:</label>
+            <input type="number" id="num2" placeholder="Digite outro valor">
+        </div>
+
+        <button onclick="calcular()">Calcular</button>
+
+        <div id="resultado">
+            O resultado aparecerá aqui...
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
