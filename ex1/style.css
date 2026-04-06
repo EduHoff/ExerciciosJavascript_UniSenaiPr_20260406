@@ -106,3 +106,23 @@ li {
     padding: 0.2rem 0.5rem;
     font-size: 0.8rem;
 }
+
+select {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: white;
+    outline: none;
+    transition: border-color 0.2s;
+    cursor: pointer;
+}
+
+select:focus {
+    border-color: #3498db;
+}
+
+option {
+    padding: 10px;
+}

@@ -23,7 +23,17 @@ Peça dois números ao usuário e mostre na página a soma, subtração, multipl
             <input type="number" id="num2" placeholder="Digite outro valor">
         </div>
 
-        <button onclick="calcular()">Calcular</button>
+        <div class="input-group">
+            <label for="operacao">Escolha uma operação:</label>
+            <select id="operacao" name="operacao">
+                <option value="soma">Soma</option>
+                <option value="subtracao">Subtração</option>
+                <option value="multiplicacao">Múltiplicação</option>
+                <option value="divisao">Divisão</option>
+            </select>
+        </div>
+
+        <button id="bntResultado">Calcular</button>
 
         <div id="resultado">
             O resultado aparecerá aqui...
