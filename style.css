@@ -74,7 +74,7 @@ button:hover {
     background-color: #2980b9;
 }
 
-#resultado {
+.resultado {
     margin-top: 1.5rem;
     padding: 1rem;
     background-color: #e8f4fd;
@@ -83,6 +83,7 @@ button:hover {
     font-weight: 500;
     min-height: 50px;
     word-wrap: break-word;
+    display: none;
 }
 
 ul {
