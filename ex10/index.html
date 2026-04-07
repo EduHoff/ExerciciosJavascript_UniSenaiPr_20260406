@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Exercício 10</title>
+</head>
+<!--
+O usuário digita itens um a um e clica em "Adicionar". A lista aparece na página. É possível remover itens individualmente. Mostre sempre o total de itens.
+-->
+<body>
+    <div class="container">
+        <h1>Exercício 10</h1>
+        
+        <div class="input-group">
+            <label for="inputTexto">Digite um texto:</label>
+            <input type="text" id="inputTexto" placeholder="Digite um texto">
+        </div>
+
+        <p>Total de itens: <span id="totalItens">0</span></p>
+        <ul id="listaItens"></ul>
+
+        <button id="bntResultado">Adicionar</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

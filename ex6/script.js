@@ -4,6 +4,11 @@ bntResultado.addEventListener("click", ()=>{
 
     const opcao = document.querySelector("#opcao").valueAsNumber
 
+    if (isNaN(opcao)) {
+        alert("Por favor, digite um número antes de continuar.");
+        return;
+    }
+
     let dia_semana = undefined;
     switch (opcao) {
     case 1:

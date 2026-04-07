@@ -6,6 +6,11 @@ bntResultado.addEventListener("click", ()=>{
     const num2 = document.querySelector("#num2").valueAsNumber
     const operacao = document.querySelector("#operacao").value
 
+    if (isNaN(num1) || isNaN(num2) || !operacao) {
+        alert("Por favor, preencha todos os campos corretamente.");
+        return;
+    }
+
     let resultado = undefined;
     switch (operacao) {
     case "soma":

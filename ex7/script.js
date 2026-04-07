@@ -4,6 +4,11 @@ bntResultado.addEventListener("click", ()=>{
 
     const num = document.querySelector("#num").valueAsNumber
 
+    if (isNaN(num)) {
+        alert("Por favor, digite um número antes de continuar.");
+        return;
+    }
+
 
     let tabuadaHtml = `<h3>Tabuada do ${num}:</h3><br>`;
 

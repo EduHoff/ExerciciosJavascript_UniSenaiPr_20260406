@@ -4,6 +4,12 @@ const inputNum = document.querySelector("#num")
 const array = []
 
 bntResultado.addEventListener("click", () => {
+    
+    if (isNaN(inputNum.valueAsNumber)) {
+        alert("Por favor, digite um número antes de continuar.");
+        return;
+    }
+    
     const num = inputNum.valueAsNumber
 
     array.push(num)

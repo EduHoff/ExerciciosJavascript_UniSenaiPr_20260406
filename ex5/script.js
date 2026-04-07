@@ -4,6 +4,11 @@ bntResultado.addEventListener("click", ()=>{
 
     const preco = document.querySelector("#preco").valueAsNumber
 
+    if (isNaN(preco)) {
+        alert("Por favor, digite um número antes de continuar.");
+        return;
+    }
+
     let desconto = 0;
     if(preco >= 100 && preco < 299){
         desconto = 0.1

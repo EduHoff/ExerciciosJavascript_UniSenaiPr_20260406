@@ -4,6 +4,11 @@ bntResultado.addEventListener("click", ()=>{
 
     const celsius  = document.querySelector("#celsius").valueAsNumber
 
+    if (isNaN(celsius)) {
+        alert("Por favor, digite um número antes de continuar.");
+        return;
+    }
+
     const fahrenheit = celsius * 1.8 + 32;
     const kelvin = celsius + 273.15;
 
