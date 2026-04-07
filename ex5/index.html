@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Exercício 5</title>
+</head>
+<!--
+Receba o valor de uma compra e aplique o desconto: abaixo de R$100 sem
+desconto, de R$100 a R$299 desconto de 10%, R$300 ou mais desconto de
+20%. Mostre o desconto aplicado e o valor final.
+-->
+<body>
+    <div class="container">
+        <h1>Exercício 5</h1>
+        
+        <div class="input-group">
+            <label for="preco">Preço (R$):</label>
+            <input type="number" step="0.01" id="preco" placeholder="Digite o preço do produto">
+        </div>
+
+        <button id="bntResultado">Calcular</button>
+
+        <div id="resultado" class="resultado"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -8,6 +8,6 @@ bntResultado.addEventListener("click", ()=>{
     const imc = peso / altura**2
 
 
-    document.querySelector(".resultado").style.display = 'block';
+    document.querySelector("#resultado").style.display = 'block';
     document.querySelector("#resultado").innerHTML = `IMC: ${imc.toFixed(2)}`;
 })
