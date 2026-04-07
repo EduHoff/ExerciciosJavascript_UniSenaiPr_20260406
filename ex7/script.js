@@ -12,9 +12,6 @@ bntResultado.addEventListener("click", ()=>{
         tabuadaHtml += `${num} x ${i} = ${conta} <br>`;
     }
 
-
     document.querySelector("#resultado").style.display = 'block';
     document.querySelector("#resultado").innerHTML = tabuadaHtml;
-
-
 })
